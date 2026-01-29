@@ -1,0 +1,20 @@
+import React from 'react'
+import Header from '../componet/Header';
+
+const UseCallback = () => {
+    const [count,setCount]=useState(0);
+    const Newfun =UseCallback(()=>{
+
+    })([count])
+    return(
+        <div>
+            <Header newFun={Newfun}/>
+            <h1>{count}</h1>
+            <button onClick={()=>setCount(count+1)}>Count++</button>
+
+        </div>
+    
+    )
+}
+
+export default UseCallback

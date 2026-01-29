@@ -5,7 +5,11 @@ import{BrowserRouter}from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <App />
+    <ThemeProvide>
+      <AuthProvider>
+        <App/>
+      </AuthProvider>
+    </ThemeProvide>
     </BrowserRouter>
   </StrictMode>,
 )

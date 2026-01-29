@@ -1,36 +1,21 @@
 .navbar{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 ul{
     list-style: none;
-    background-color:chocolate;
+    background: chocolate;
     padding: 10px;
-
-
 }
 li{
-    background-color: white;
-    padding: 10px;
+    background-color:white;
+    padding:10px;
     border-radius: 10px;
 }
-.link{
-    background-color: white;
-    padding: 10px;
+li:hover{
+    background-color:black;
+    color:white;
+    padding:10px;
     border-radius: 10px;
-    text-decoration:none;
-    color:black;
-
-}
-linkhover{
-    background-color:black;
-    color:white;
-
-
-}
-.link.hover{
-    background-color:black;
-    color:white;
 }
